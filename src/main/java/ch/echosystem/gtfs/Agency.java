@@ -4,6 +4,12 @@ import java.util.TimeZone;
 
 public final class Agency extends Name
 	{
+	public enum Header
+		{
+		id,
+		name
+		}
+
 	private String url;
 	private TimeZone timezone;
 
